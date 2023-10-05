@@ -13,4 +13,3 @@ HunerThon1 = TelegramClient(StringSession(session1), APP_ID, APP_HASH)
 
 ispay = ['yes']
 ispay2 = ['yes']
-
