@@ -94,9 +94,9 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply("""**
-⚝ مرحبا بك في اوامر هانترثون بـوينت
+⚝ مرحبا بك في اوامر هانرثون بـوينت
  
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 
 𝟏 - للدخول الى اوامر التجميع : .تجميع
 
@@ -106,7 +106,7 @@ async def OwnerStart(event):
 
 𝟒 - لـفـحص عـمـل الـســورس : .فحص
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 **""")
 
 
@@ -117,7 +117,7 @@ async def OwnerStart(event):
         order = await event.reply("""**
 ⚝ قـائمة جميع اوامر التجميع التي تحتاجها
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 
 `/point1` :  تجميع نقاط بوت المليار
 `/point2` : تجميع نقاط بوت الجوكر 
@@ -152,7 +152,7 @@ note : ننصحك بوضع عدد الثواني 300
 
 `/lpoint` : لمغادرة جميع القنوات والمجموعات
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 **""")
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='.تحكم'))
@@ -162,7 +162,7 @@ async def OwnerStart(event):
         order = await event.reply("""**
 ⚝ قائمة اوامر التحكم بالحساب
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 
 𝟏 - لتحويل اخر رسالة من مستخدم معين او بوت :
 
@@ -188,7 +188,7 @@ note :  قم بحساب رقم الزر الشفاف من العدد 0
 
 `/jn + يوزر القناة او المجموعة `
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 **""")
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='.مميزة'))
@@ -197,7 +197,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**
 ⚝ قائمة الاوامر المميزة 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 
 𝟏 - لتفعيل بوت عبر الدخول الى رابط الدعوه : 
 
@@ -219,7 +219,7 @@ note : موقع الرسالة يعني مثلا اذا كان الاسم في �
 
 `/lv + يوزر القناة`
 
-============= • 𝙃𝙐𝙉𝙏𝙀𝙍𝙏𝙃𝙊𝙉 • ============
+============= • 𝙃𝙐𝙉𝙀𝙍𝙏𝙃𝙊𝙉 • ============
 **""")
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/notes'))
@@ -259,15 +259,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗛𝗨𝗡𝗧𝗘𝗥𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗛𝗨𝗡𝗘𝗥𝗧𝗛𝗢𝗡⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗛𝗨𝗡𝗧𝗘𝗥𝗧𝗛𝗢𝗡    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗛𝗨𝗡𝗘𝗥𝗧𝗛𝗢𝗡    ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
 ※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - @Y_H_E  ※
 
-╰───⌯𝗛𝗨𝗡𝗧𝗘𝗥𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝗛𝗨𝗡𝗘𝗥𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
 ''')
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -294,7 +294,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -314,7 +314,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
         
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/point2'))
 async def OwnerStart(event):
@@ -340,7 +340,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -360,7 +360,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/point3'))
 async def OwnerStart(event):
@@ -386,7 +386,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -406,7 +406,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/point4'))
 async def OwnerStart(event):
@@ -432,7 +432,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -452,7 +452,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
 
 
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern='/point5'))
@@ -479,7 +479,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -499,7 +499,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
         
 
 
@@ -525,7 +525,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | CR**")
+            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | HN**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -544,7 +544,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | CR**")
+    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | HN**")
     
     
     
@@ -570,7 +570,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | CR**")
+            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | HN**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -589,7 +589,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | CR**")
+    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | HN**")
 
 @HunerThon1.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
@@ -613,7 +613,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | CR**")
+            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | HN**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -632,7 +632,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | CR**")
+    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | HN**")
 
 
 @HunerThon1.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
@@ -657,7 +657,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | CR**")
+            await HunerThon1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | HN**")
 
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -676,7 +676,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | CR**")
+    await HunerThon1.send_message(event.chat_id, "**تم الانتهاء من التجميع | HN**")
 
 
 ##########################################
@@ -706,7 +706,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | CR")
+                await HunerThon1.send_message(event.chat_id, f"تم الانتهاء من التجميع | HN")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -726,7 +726,7 @@ async def OwnerStart(event):
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
 
-        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | CR")
+        await HunerThon1.send_message(event.chat_id, "تم الانتهاء من التجميع | HN")
         
 @HunerThon1.on(events.NewMessage(outgoing=False, pattern=r'^/bot (.*) (.*)'))
 async def OwnerStart(event):
@@ -803,7 +803,7 @@ async def OwnerStart(event):
 
                 joinu = await HunerThon1(JoinChannelRequest('VVHH9'))
                 channel_entity = await HunerThon1.get_entity(pot)
-                await HunerThon1.send_message(pot, '**جاري بدء التجميع بواسطة هانترثون**')
+                await HunerThon1.send_message(pot, '**جاري بدء التجميع بواسطة هانرثون**')
                 await HunerThon1.send_message(pot, '/start')
                 await asyncio.sleep(2)
                 msg0 = await HunerThon1.get_messages(pot, limit=1)
@@ -1109,7 +1109,7 @@ async def OwnerStart(event):
         wait = await HunerThon1.send_message(ownerhson_ids,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await HunerThon1.get_entity(chn)
         join = await HunerThon1(JoinChannelRequest(chn))
-        joion = await HunerThon1(JoinChannelRequest('VVHH9'))
+        joion = await HunerThon1(JoinChannelRequest('C222F'))
         somy = await HunerThon1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
