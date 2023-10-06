@@ -54,7 +54,7 @@ DEVS = [6275274612]
 @HunerThon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await HunerThon1(JoinChannelRequest("@Huner_Thon"))
+        await HunerThon1(JoinChannelRequest("@HunerThon"))
     except BaseException:
         pass
         
@@ -269,7 +269,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
 
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(bot_username)
         await HunerThon1.send_message(bot_username, '/start')
         await asyncio.sleep(4)
@@ -314,7 +314,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(bot_usernamee)
         await HunerThon1.send_message(bot_usernamee, '/start')
         await asyncio.sleep(4)
@@ -359,7 +359,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(bot_usernameee)
         await HunerThon1.send_message(bot_usernameee, '/start')
         await asyncio.sleep(4)
@@ -405,7 +405,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
 
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(bot_usernameeee)
         await HunerThon1.send_message(bot_usernameeee, '/start')
         await asyncio.sleep(4)
@@ -452,7 +452,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
 
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(bot_usernameeeee)
         await HunerThon1.send_message(bot_usernameeeee, '/start')
         await asyncio.sleep(4)
@@ -498,7 +498,7 @@ async def OwnerStart(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+    joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
     channel_entity = await HunerThon1.get_entity(bot_username)
     await HunerThon1.send_message(bot_username, '/start')
     await asyncio.sleep(4)
@@ -543,7 +543,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+    joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
     channel_entity = await HunerThon1.get_entity(bot_usernamee)
     await HunerThon1.send_message(bot_usernamee, '/start')
     await asyncio.sleep(4)
@@ -586,7 +586,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+    joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
     channel_entity = await HunerThon1.get_entity(bot_usernameee)
     await HunerThon1.send_message(bot_usernameee, '/start')
     await asyncio.sleep(4)
@@ -630,7 +630,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+    joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
     channel_entity = await HunerThon1.get_entity(bot_usernameeee)
     await HunerThon1.send_message(bot_usernameeee, '/start')
     await asyncio.sleep(4)
@@ -679,7 +679,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
         
-        joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+        joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
         channel_entity = await HunerThon1.get_entity(pot)
         await HunerThon1.send_message(pot, '/start')
         await asyncio.sleep(4)
@@ -738,7 +738,7 @@ async def OwnerStart(event):
             sender = await event.get_sender()
             if sender.id == ownerhson_id:
                 await event.reply("**⛦ جاري بدء عملية التجميع اللانهائية ⛦**")
-                joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+                joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
                 channel_entity = await HunerThon1.get_entity(pot)
                 await HunerThon1.send_message(pot, '/start')
                 await asyncio.sleep(2)
@@ -792,7 +792,7 @@ async def OwnerStart(event):
             if sender.id == ownerhson_id:
                 await event.reply(f"**✣ حسنا سوف اقوم بعملية التجميع \n✣ عدد الثواني بين كل محاولة : {numw}\n✣ التجميع من بوت : @{pot}**")
 
-                joinu = await HunerThon1(JoinChannelRequest('saythonh'))
+                joinu = await HunerThon1(JoinChannelRequest('HunerThon'))
                 channel_entity = await HunerThon1.get_entity(pot)
                 await HunerThon1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة سايثون**')
                 await HunerThon1.send_message(pot, '/start')
@@ -1083,7 +1083,7 @@ async def OwnerStart(event):
         wait = await HunerThon1.send_message(ownerhson_id,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await HunerThon1.get_entity(chn)
         join = await HunerThon1(JoinChannelRequest(chn))
-        joion = await HunerThon1(JoinChannelRequest('saythonh'))
+        joion = await HunerThon1(JoinChannelRequest('HunerThon'))
         somy = await HunerThon1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
@@ -1100,7 +1100,7 @@ async def OwnerStart(event):
         wait = await HunerThon1.send_message(ownerhson_ids,'**⚝ حسناً سوف اقوم بالانضمام والتصويت**')
         haso = await HunerThon1.get_entity(chn)
         join = await HunerThon1(JoinChannelRequest(chn))
-        joion = await HunerThon1(JoinChannelRequest('saythonh'))
+        joion = await HunerThon1(JoinChannelRequest('HunerThon'))
         somy = await HunerThon1.get_messages(chn, limit=nu)
         await somy[nuu].click(0)
         sleep(1)
